@@ -1,0 +1,254 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},{
+			"path": "pages/index/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},{
+			"path": "pages/classify/index",
+			"style": {
+				"navigationBarTitleText": "商品列表"
+			}
+		},{
+			"path": "pages/cart/index/index",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},{
+			"path": "pages/member/index/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},{
+			"path": "pages/member/coupon/index",
+			"style": {
+				"navigationBarTitleText": "我的优惠券"
+			}
+		},{
+			"path": "pages/member/balance/index",
+			"style": {
+				"navigationBarTitleText": "我的余额"
+			}
+		},{
+			"path": "pages/member/balance/recharge",
+			"style": {
+				"navigationBarTitleText": "充值"
+			}
+		},{
+			"path": "pages/member/balance/withdraw_cash",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},{
+			"path": "pages/member/balance/details",
+			"style": {
+				"navigationBarTitleText": "余额明细"
+			}
+		},{
+			"path": "pages/member/balance/cashlist",
+			"style": {
+				"navigationBarTitleText": "提现记录"
+			}
+		},{
+			"path": "pages/member/balance/bankcard",
+			"style": {
+				"navigationBarTitleText": "我的银行卡"
+			}
+		},{
+			"path": "pages/member/balance/add_bankcard",
+			"style": {
+				"navigationBarTitleText": "添加银行卡"
+			}
+		},{
+			"path": "pages/member/collection/index",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		},{
+			"path": "pages/member/history/index",
+			"style": {
+				"navigationBarTitleText": "我的足迹"
+			}
+		},{
+			"path": "pages/member/address/list",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},{
+			"path": "pages/member/address/index",
+			"style": {
+				"navigationBarTitleText": "修改地址"
+			}
+		},{
+			"path": "pages/member/setting/index",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},{
+			"path": "pages/member/setting/user_info/index",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},{
+			"path": "pages/member/integral/index",
+			"style": {
+				"navigationBarTitleText": "我的积分"
+			}
+		},{
+			"path": "pages/member/invite/index",
+			"style": {
+				"navigationBarTitleText": "邀请好友"
+			}
+		},{
+			"path": "pages/member/invite/list",
+			"style": {
+				"navigationBarTitleText": "邀请列表"
+			}
+		},{
+			"path": "pages/goods/index/index",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		},{
+			"path": "pages/goods/place-order/index",
+			"style": {
+				"navigationBarTitleText": "提交订单"
+			}
+		},{
+			"path": "pages/goods/place-order/invoice",
+			"style": {
+				"navigationBarTitleText": "发票"
+			}
+		},{
+			"path": "pages/goods/payment/index",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		},{
+			"path": "pages/goods/payment/result",
+			"style": {
+				"navigationBarTitleText": "支付结果"
+			}
+		},{
+			"path": "pages/member/order/orderlist",
+			"style": {
+				"navigationBarTitleText": "订单列表"
+			}
+		},{
+			"path": "pages/member/order/orderdetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},{
+			"path": "pages/member/after_sale/index",
+			"style": {
+				"navigationBarTitleText": "申请售后"
+			}
+		},{
+			"path": "pages/member/after_sale/list",
+			"style": {
+				"navigationBarTitleText": "售后列表"
+			}
+		},{
+			"path": "pages/member/after_sale/detail",
+			"style": {
+				"navigationBarTitleText": "售后详情"
+			}
+		},{
+			"path": "pages/member/order/evaluate",
+			"style": {
+				"navigationBarTitleText": "订单评价"
+			}
+		},{
+			"path": "pages/member/order/express_delivery",
+			"style": {
+				"navigationBarTitleText": "物流信息"
+			}
+		},{
+			"path": "pages/article/index",
+			"style": {
+				"navigationBarTitleText": "文章详情"
+			}
+		},{
+			"path": "pages/article/list",
+			"style": {
+				"navigationBarTitleText": "文章列表"
+			}
+		},{
+			"path": "pages/login/choose/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},{
+			"path": "pages/login/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},{
+			"path": "pages/login/login/index1",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},{
+			"path": "pages/author",
+			"style": {
+				"navigationBarTitleText": "获取授权中"
+			}
+		},{
+			"path": "pages/login/register/index",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "新模板",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#333",
+		"backgroundColor": "#fff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/image/tab-ic-hom-unselected.png",
+				"selectedIconPath": "static/image/tab-ic-hom-selected.png"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"text": "分类",
+				"iconPath": "static/image/tab-ic-classify-unselected.png",
+				"selectedIconPath": "static/image/tab-ic-classify-selected.png"
+			},
+			{
+				"pagePath": "pages/cart/index/index",
+				"text": "购物车",
+				"iconPath": "static/image/tab-ic-car-unselected.png",
+				"selectedIconPath": "static/image/tab-ic-car-selected.png"
+			},
+			{
+				"pagePath": "pages/member/index/index",
+				"text": "我的",
+				"iconPath": "static/image/tab-ic-me-unselected.png",
+				"selectedIconPath": "static/image/tab-ic-me-selected.png"
+			}
+		]
+	}
+}
